@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Object.addEventListener("click", imRight1);
 Object.addEventListener("click", imRight2);
 Object.addEventListener("mouseover", hovered);
@@ -51,3 +52,23 @@ function hovered() {
     let boxClass = document.getElementsByClassName("big_box");
     alert("Hey, I told you not to hover over me!");
 }
+=======
+document.getElementById("submit").addEventListener("click", function(event){
+    event.preventDefault();
+    const value  = document.getElementById("password").value;
+    const h1Tag = document.getElementById("message");
+    if(value === "12345678")
+    {
+        h1Tag.innerHTML = "Login Sucess"
+    }
+    else{
+     alert("Login Failed")
+    }
+    });
+    
+
+
+
+
+
+>>>>>>> ca0b6d87871f082cc9283b1ba86f5a631e6f43ea

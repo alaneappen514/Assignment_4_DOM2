@@ -1,5 +1,6 @@
 Object.addEventListener("click", imRight1);
 Object.addEventListener("click", imRight2);
+Object.addEventListener("mouseover", hovered);
 
 function imRight1() {
 
@@ -43,4 +44,10 @@ function imRight2() {
     // set text of other button to hidden, so only one text is visible on screen at a time
     let d = document.getElementById("I'm right");
     d.style.display = "none";
+}
+
+function hovered() {
+    // when user hovers over the div class send the alert with appropriate message
+    let boxClass = document.getElementsByClassName("big_box");
+    alert("Hey, I told you not to hover over me!");
 }

@@ -1,0 +1,11 @@
+/*styling for prompt 2 large element box*/
+.big_box {
+    border: 5px solid green;
+    background-color: lightgreen;
+    padding: 10%;
+    width: 25%;
+}
+
+.big_box h1 {
+    text-align:center;
+}

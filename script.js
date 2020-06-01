@@ -51,8 +51,7 @@ function hovered() {
     // when user hovers over the div class send the alert with appropriate message
     alert("Hey, I told you not to hover over me!");
 }
-<<<<<<< HEAD
-=======
+
 document.getElementById("submit").addEventListener("click", function(event){
     event.preventDefault();
     const value  = document.getElementById("password").value;
@@ -66,13 +65,7 @@ document.getElementById("submit").addEventListener("click", function(event){
     }
     });
     
-
-
-
-
-
->>>>>>> ca0b6d87871f082cc9283b1ba86f5a631e6f43ea
-=======
+/* Merge conflit for some weird reason
 
 function getVolume() {
     let radius = document.getElementById("radius").value;
@@ -85,4 +78,5 @@ function getVolume() {
 
     alert("The volume of the sphere with radius: " + radius + " is = " + volume + ".");
 }
->>>>>>> bonus
+
+*/

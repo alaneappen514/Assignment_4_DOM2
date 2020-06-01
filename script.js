@@ -48,6 +48,17 @@ function imRight2() {
 
 function hovered() {
     // when user hovers over the div class send the alert with appropriate message
-    let boxClass = document.getElementsByClassName("big_box");
     alert("Hey, I told you not to hover over me!");
+}
+
+function getVolume() {
+    let radius = document.getElementById("radius").value;
+    
+    // volume of sphere = 4/3 * pi * r^3
+    let volume = (4*Math.PI*radius*radius*radius)/3;
+
+    // since we can get a really long float, let's trim the number of decimal places to 3
+    volume = volume.toFixed(3);
+
+    alert("The volume of the sphere with radius: " + radius + " is = " + volume + ".");
 }
